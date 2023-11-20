@@ -1,8 +1,15 @@
-import React from "react";
+import {React, useState, useEffect} from "react";
+import "../custom-style.css";
 
-const PuppyCard = () => {
+const PuppyCard = ({puppy}) => {
 	return (
-		<p>Hi!</p>
+		puppy ? (
+			<section className="column-flex">
+				<h3>{puppy.name}</h3>
+			</section>
+		) : (
+			<div>...</div>
+		)
 	);
 };
 

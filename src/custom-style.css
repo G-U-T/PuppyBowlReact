@@ -1,0 +1,19 @@
+.column-flex {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.row-flex {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	background: black;
+	min-width: 20px;
+	border-radius: 8px;
+}
