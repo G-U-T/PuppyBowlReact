@@ -2,6 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 0.4rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .row-flex {
@@ -12,8 +14,28 @@
 	align-items: center;
 }
 
+img {
+	max-width: 250px;
+	max-height: 250px;
+}
+
 section {
 	background: black;
 	min-width: 20px;
 	border-radius: 8px;
+}
+section > button {
+	margin: 10px;
+}
+
+form {
+	background: black;
+	border-radius: 8px;
+	min-width: 300px;
+}
+
+form > *:not([type=radio]) {
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
