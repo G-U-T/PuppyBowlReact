@@ -66,7 +66,6 @@ const PuppyList = ({setSelectedPuppy}) => {
 
 				const customPuppy = {
 					name: customName,
-					// id: 999,
 					breed: customBreed,
 					imageUrl: customImage,
 					status: customStatus,

@@ -38,7 +38,6 @@ const PuppyCard = ({puppy, setSelectedPuppy, isSelected}) => {
 						<p>Status: {puppy.status}</p>
 						<button onClick={() => {
 							removePuppy(puppy);
-							setSelectedPuppy(null);
 						}}>REMOVE</button>
 					</>) : (
 						<></>
